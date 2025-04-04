@@ -1,7 +1,6 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import autoprefixerPlugin from "autoprefixer";
-import tailwindcssPlugin from "tailwindcss";
 
 export default defineConfig(() => ({
   base: "",
@@ -13,7 +12,7 @@ export default defineConfig(() => ({
   css: {
     devSourcemap: true,
     postcss: {
-      plugins: [autoprefixerPlugin, tailwindcssPlugin,],
+      plugins: [autoprefixerPlugin,],
     },
   },
 }));
