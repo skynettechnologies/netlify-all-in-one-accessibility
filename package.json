@@ -22,23 +22,23 @@
     "@trpc/client": "^11.0.2",
     "@trpc/react-query": "^11.0.2",
     "@trpc/server": "^11.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@netlify/netlify-plugin-netlify-extension": "^1.2.1",
     "@tsconfig/recommended": "^1.0.7",
     "@tsconfig/strictest": "^2.0.5",
     "@tsconfig/vite-react": "^3.4.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
     "netlify-cli": "^19.1.5",
     "tailwindcss": "^4.1.2",
     "typescript": "^5.8.2",
+    "@tailwindcss/postcss" : "^4.1.2",
     "vite": "^6.2.5"
-  },
-  "overrides": {
-    "react": "19.x",
-    "react-dom": "19.x",
-    "@types/react": "19.x",
-    "@types/react-dom": "19.x"
   }
 }

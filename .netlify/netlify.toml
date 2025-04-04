@@ -1,16 +1,27 @@
-plugins = []
+functionsDirectory = "/Users/vishalrathod/Documents/netlify/netlify-all-in-one-accessibility/src/endpoints"
+functionsDirectoryOrigin = "config"
 headers = []
 redirects = []
+
+[dev]
+command = "netlify-extension dev"
 
 [functions]
 
 [functions."*"]
 
+[[plugins]]
+origin = "config"
+package = "@netlify/netlify-plugin-netlify-extension"
+
+[plugins.inputs]
+
 [build]
-publish = "/Users/vishalrathod/Documents/netlify/netlify-all-in-one-accessibility/dist"
-publishOrigin = "ui"
-commandOrigin = "ui"
-command = "npm run build"
+publish = "/Users/vishalrathod/Documents/netlify/netlify-all-in-one-accessibility/.ntli/site/static"
+publishOrigin = "config"
+commandOrigin = "inline"
+command = "vite build"
+functions = "/Users/vishalrathod/Documents/netlify/netlify-all-in-one-accessibility/src/endpoints"
 
 [build.environment]
 
