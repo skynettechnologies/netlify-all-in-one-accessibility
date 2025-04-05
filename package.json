@@ -1,13 +1,31 @@
 {
   "name": "netlify-all-in-one-accessibility",
-  "version": "0.0.1",
-  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Website accessibility widget for improving WCAG 2.0, 2.1, 2.2 and ADA compliance!",
   "keywords": [
     "netlify",
-    "Accessibility",
-    "frontend-testing",
-    "netlify-plugin"
+    "netlify-extension",
+    "cms",
+    "headless",
+    "gui",
+    "admin",
+    "All in One Accessibility",
+    "ADA",
+    "All in One Accessibility Netlify",
+    "All in One Accessibility javascript",
+    "netlify Plugin All in One Accessibility",
+    "netlify-all-in-one-accessibility"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skynettechnologies/netlify-all-in-one-accessibility"
+  },
+  "bugs": {
+    "url": "https://github.com/skynettechnologies/netlify-all-in-one-accessibility/issues"
+  },
+  "homepage": "https://github.com/skynettechnologies/netlify-all-in-one-accessibility#readme",
+  "license": "MIT",
+  "author": "Skynet Technologies USA LLC <developer3@skynettechnologies.com>",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
